@@ -1,0 +1,24 @@
+{
+    "/users/*": {
+
+        "target": "https://xebiascart.herokuapp.com/",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    },
+    "/products/*": {
+
+        "target": "https://xebiascart.herokuapp.com/",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    },
+    "/filters/*": {
+
+        "target": "https://xebiascart.herokuapp.com/",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug"
+    }
+   
+}
